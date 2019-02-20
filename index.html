@@ -30,19 +30,21 @@
         <div class="navbar-fixed">
     <nav>
         <div class="nav-wrapper">
-            <a href="/" class="brand-logo"><img src="images/nav-logo.png" alt="Logo"></a>
+            <a href="index.html" class="brand-logo"><img src="images/nav-logo.png" alt="Logo"></a>
             <a href="#" data-activates="mobile-menu" class="button-collapse"><i class="material-icons">menu</i></a>
             <ul class="right hide-on-med-and-down">
-                <li><a class="waves-effect waves-light active" href="/">Home</a></li>
-                <li><a class="waves-effect waves-light" href="/projects">Portfolio</a></li>
-                <li><a class="waves-effect waves-light" href="/work">Contact</a></li>
+                <li><a class="waves-effect waves-light active" href="index.html">Home</a></li>
+                <li><a class="waves-effect waves-light" href="portfolio.html">Portfolio</a></li>
+                <li><a class="waves-effect waves-light" href="about.html">Moi</a></li>
+                <li><a class="waves-effect waves-light" href="contact.html">Contact</a></li>
             </ul>
             <ul class="side-nav hide-on-large-only" id="mobile-menu" style="transform: translateX(-100%);">
-                <li><a class="waves-effect" href="/">Home</a></li>
-                <li><a class="waves-effect" href="/projects">Portfolio</a></li>
-                <li><a class="waves-effect" href="/work">Contact</a></li>
+                <li><a class="waves-effect" href="index.html">Home</a></li>
+                <li><a class="waves-effect" href="portfolio.html">Portfolio</a></li>
+                <li><a class="waves-effect" href="about.html">Moi</a></li>
+                <li><a class="waves-effect" href="contact.html">Contact</a></li>
             </ul>
-        </div>
+    </div>
     </nav>
 </div>
         <div class="main-wrap">
@@ -73,9 +75,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="carousel tools-container initialized">
+                <div class="carousel tools-container">
                     <a class="carousel-item" style="transform: translateX(376.5px) translateY(50px) translateX(200px) translateZ(-200px); z-index: -1; opacity: 0.6; display: block;">
-                        <div class="tools tooltipped" data-position="bottom" data-delay="50" target="blank_" data-tooltip="Javascript" data-tooltip-id="57514f3e-4c45-a66c-480c-4ccb8d97206b">
+                        <div class="tools tooltipped" data-position="bottom" data-delay="50" target="blank_" data-tooltip="Symfony" data-tooltip-id="57514f3e-4c45-a66c-480c-4ccb8d97206b">
                             <img src="images/symfony.png" alt="Symfony">
                         </div>
                     </a>
@@ -138,7 +140,7 @@
 					Age: 24<br>Location: Marseille, France
 				</p>
 				<p class="grey-text text-lighten-4">Je suis un freelance spécialisé dans le dévéloppement web. </p>
-				<button data-target="contact" class="waves-effect waves-red btn bluedark lighten-2" onclick="setTimeout(function(){document.getElementsByName('name')[0].focus()},300)">Contact</button>&nbsp;&nbsp;<a class="waves-effect waves-red btn-flat color-blue-light" href="about">Plus d'infos</a>
+				<button  class="waves-effect waves-red btn bluedark lighten-2" onclick="setTimeout(window.location.host('contact.html'),300)">Contact</button>&nbsp;&nbsp;<a class="waves-effect waves-red btn-flat color-blue-light" href="about">Plus d'infos</a>
 			</div>
 			<div class="col l4 offset-l2 s12">
 				<h5 class="white-text">Vous pouvez me trouver sur</h5>
@@ -157,11 +159,10 @@
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
 <script src="https://unpkg.com/typewriter-effect/dist/core.js"></script>
 <script src="custom.js" async=""></script>	
 <script src="index.js"></script>
-	
 	
 
 

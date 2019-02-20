@@ -1,5 +1,7 @@
 /* Start onevent listeners */
 $(document).ready(function () {
+	$('.modal').modal();
+	$('.carousel').carousel();
 	$(".button-collapse").sideNav();
 	$(window).on('scroll', function () {
 		checkScroll()
@@ -14,7 +16,8 @@ $(document).ready(function () {
 })
 
 function checkScroll() {
-	if ($(window).scrollTop() + $(window).height() > $('.main-wrap').outerHeight() + 60) {
+	if ($(window).scrollTop() + $(window).height() > $('.main-wrap').outerHeight() + 500) {
+		console.log($(window).height());
 		if (window.crate) crate.hide()
 		if ($(window).width() > 993) {
 			$('body').addClass('tight');
@@ -24,7 +27,7 @@ function checkScroll() {
 		if (window.crate) crate.show()
 		if ($(window).width() > 993) {
 			$('body').removeClass('tight');
-			setTimeout("$('.side-nav').removeClass('dn');", 500);
+			setTimeout("$('.side-nav').removeClass('dn');", 300);
 		}
 	}
 }
@@ -42,11 +45,7 @@ if (!$("body").hasClass("no-header")) {
 		scrollTop: $(window).scrollTop() - 100;
 	});
 };
-/* Initiate contact popup */
-$(document).ready(function () {
-	$('.modal').modal();
-	$('.carousel').carousel();
-});
+
 
 var app = document.getElementById('typewriter');
 
