@@ -1,4 +1,21 @@
-1) Mettre tout les projets terminée.
-2) Faire partie MVC (Pourquoi pas un petit syfm)
-3) Mettre ton adresse me@killianfabro.fr
-4) Crée la page about me (Mettre photo de toi (digne d'un cv))
+Reste à faire web : 
+    Acheter le nom de domain killianfabro.fr
+    Crée adresse email me@killianfabro.fr
+    Portfolio :
+        Lors qu'on clique sur l'image, ça ouvre une popup avec pleins de capture d'écran du projet terminée + à voir si on met description 
+        Mettre à jour toutes les images correspondante sur le Portfolio
+        Mettre les liens si il y en as 
+    About
+        MEttre le cv sur une iframe
+    Contact 
+        Crée une page de contact simple avec envoie de mail.
+    Home
+        Voir pour le texte de présentation
+        
+
+    Faire une partie MVC et propre dans le code pour qu'on se repêre
+    Esseye de mettre une pastile de contact 
+
+Reste à faire CV:
+    Voir si il faut rajouter des choses.
+    Ne pas oublier de mettre les liens
