@@ -1,21 +1,63 @@
-Reste à faire web : 
-    Acheter le nom de domain killianfabro.fr
-    Crée adresse email me@killianfabro.fr
-    Portfolio :
-        Lors qu'on clique sur l'image, ça ouvre une popup avec pleins de capture d'écran du projet terminée + à voir si on met description 
-        Mettre à jour toutes les images correspondante sur le Portfolio
-        Mettre les liens si il y en as 
-    About
-        MEttre le cv sur une iframe
-    Contact 
-        Crée une page de contact simple avec envoie de mail.
-    Home
-        Voir pour le texte de présentation
-        
+1) Mettre tout les projets terminée.
+2) Faire partie MVC (Pourquoi pas un petit syfm)
+3) Mettre ton adresse me@killianfabro.fr
+4) Crée la page about me (Mettre photo de toi (digne d'un cv))
 
-    Faire une partie MVC et propre dans le code pour qu'on se repêre
-    Esseye de mettre une pastile de contact 
 
-Reste à faire CV:
-    Voir si il faut rajouter des choses.
-    Ne pas oublier de mettre les liens
+a mettre dans portfolio (du plus grand au plus petit)
+
+1)
+    Title : SuperNoel 2015 - Ruedesjoueurs
+    Déscription : Dévéloppement du jeu super noel 2016 from scracth
+    Tags : Dévéloppement
+    Date : 31/11/2015
+    Lien : http://dev2.ruedesjoueurs.com/concours/noel/
+
+2) 
+    Title : Intégration Email - JOA SPORT
+    Description : Intégration d'email pour JoaSport lors d'un concours.
+    Tags : Intégration
+    Date : 10/02/2016
+    Liens : http://newsletter.medias.ruedesjoueurs.com/News-joa-league-1120216/News-joa-league-pres-120216.html?c=de
+3)
+    Title : ZoneMembre - Ruedesjoueurs
+    Description : Désign & Intégration d'une ZoneMembre sur ruedesjoueurs.com sur Joomla.
+    Tags : Désign & Dévéloppement
+    Date : 01/03/2016
+    Liens : https://ruedesjoueurs.com/membre
+4)
+    Title : SuperNoel 2016 - Ruedesjoueurs
+    Déscription : Dévéloppement du jeu super noel 2016 from scracth
+    Tags : Dévéloppement
+    Date : 31/11/2015
+    Liens  : http://dev2.ruedesjoueurs.com/concours/super-noel-rdj/
+5)
+    Title : SuperNoel 2017 - Ruedesjoueurs
+    Description : Désign & Intégration du SuperNoel 2017 grace à la technologie Foundation & Phalcon
+    Tags : Désign & Dévéloppement
+    Date : 01/12/2017
+    Liens : http://dev2.ruedesjoueurs.com/concours/super-noel-rdj-2017/
+6)
+    Title : SuperNoel 2018 - Ruedesjoueurs
+    Description : Désign & Intégration du SuperNoel 2018 grace à la technologie Foundation & Phalcon
+    Tags : Désign & Dévéloppement
+    Date : 01/12/2018
+    Liens : http://dev2.ruedesjoueurs.com/concours/super-noel-rdj-2018/
+7)
+    Title : Bot Discord - Ruedesjoueurs
+    Description : Création d'un bot discord sous node.JS avec la library Discord.js  
+    Tags : Désign & Dévéloppement
+    Date : 01/01/2019
+    Liens : https://discord.gg/ZKs26Er
+10) 
+    Title : Concours PronosZone - Ruedesjoueurs
+    Description : Intégration & Dévéloppement d'un jeu concours spécialisé pour la pronos ZoneMembre
+    Tags : Désign & Dévéloppement
+    Date : 25/03/2016
+    Liens : https://www.ruedesjoueurs.com/concours-lpz.html
+11)
+    Title : API REST (Symfony) & GraphQL - Ruedesjoueurs
+    Description : Dévélopper une api rest sur symfony et graphQL pour le flux qu'on reçois d'un founisseur spécialisé dans le sport.
+    Tags : Dévéloppement
+    Date : 01/02/2019
+    Liens : En cours
