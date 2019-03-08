@@ -56,9 +56,7 @@ var typewriter = new Typewriter(app, {
 typewriter.typeString('Salut !')
     .pauseFor(1000)
     .deleteAll()
-    .typeString('Dévéloppeur <strong>Full Stack</strong>')
+    .typeString('Développeur Full Stack')
     .pauseFor(1500)
     .deleteChars(10)
-    .typeString('<strong>Symfony</strong>')
-    .pauseFor(2500)
     .start();
