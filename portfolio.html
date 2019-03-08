@@ -31,14 +31,14 @@
                 <ul class="right hide-on-med-and-down">
                     <li><a class="waves-effect waves-light" href="index.html">Home</a></li>
                     <li><a class="waves-effect waves-light active" href="portfolio.html">Portfolio</a></li>
-                    <li><a class="waves-effect waves-light" href="about.html">Moi</a></li>
-                    <li><a class="waves-effect waves-light" href="contact.html">Contact</a></li>
+                    <li><a class="waves-effect waves-light" target="_blank" href="about.html">Moi</a></li>
+                    <li><a class="waves-effect waves-light" href="mailto:me@killianfabro.fr">Contact</a></li>
                 </ul>
                 <ul class="side-nav hide-on-large-only" id="mobile-menu" style="transform: translateX(-100%);">
                     <li><a class="waves-effect" href="index.html">Home</a></li>
                     <li><a class="waves-effect" href="portfolio.html">Portfolio</a></li>
-                    <li><a class="waves-effect" href="about.html">Moi</a></li>
-                    <li><a class="waves-effect" href="contact.html">Contact</a></li>
+                    <li><a class="waves-effect" target="_blank" href="about.html">Moi</a></li>
+                    <li><a class="waves-effect" href="mailto:me@killianfabro.fr">Contact</a></li>
                 </ul>
         </div>
     </nav>
@@ -196,10 +196,13 @@
                     <div class="col l6 s12">
                         <h5 class="white-text">A propos de moi</h5>
                         <p class="grey-text text-lighten-2">
-                            Age: 24<br>Location: Marseille, France
+                            Age: 24<br>Location: Lorgues, France
                         </p>
+                        
                         <p class="grey-text text-lighten-4">Je suis un freelance spécialisé dans le dévéloppement web. </p>
-                        <button data-target="contact" class="waves-effect waves-red btn bluedark lighten-2" onclick="setTimeout(function(){document.getElementsByName('name')[0].focus()},300)">Contact</button>&nbsp;&nbsp;<a class="waves-effect waves-red btn-flat color-blue-light" href="about">Plus d'infos</a>
+                        
+                <button  class="waves-effect waves-red btn bluedark lighten-2" onclick="window.location.replace('mailto:me@killianfabro.fr')">Contact</button>&nbsp;&nbsp;
+                        <a class="waves-effect waves-red btn-flat color-blue-light" target="_blank" href="about.html">Plus d'infos</a>
                     </div>
                     <div class="col l4 offset-l2 s12">
                         <h5 class="white-text">Vous pouvez me trouver sur</h5>

@@ -17,7 +17,7 @@ $(document).ready(function () {
 
 function checkScroll() {
 	if ($(window).scrollTop() + $(window).height() > $('.main-wrap').outerHeight() + 500) {
-		console.log($(window).height());
+
 		if (window.crate) crate.hide()
 		if ($(window).width() > 993) {
 			$('body').addClass('tight');
